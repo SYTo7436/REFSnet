@@ -1,5 +1,2 @@
-# ESC-FSUAV
-ESC-FSUAV
-The code will be made public after the paper is received
-
-The DroneRF2025 obtained in this article will be made public at: https://ieee-dataport.org/documents/dronerf2025.
+Radio-frequency (RF) fingerprints can help identify individual unmanned aerial vehicles (UAVs) in low-altitude networks. Changes in the received signal distribution across acquisition dates make it difficult to apply a model trained on one date to another, especially when labeled target-domain data are scarce.
+REFSnet is a Reliability-Aware Equiangular Tight Frame (ETF)-Anchored Few-Shot Adaptation Network for cross-time UAV RF fingerprint identification. It converts RF signals into time–frequency spectrograms and extracts complementary features through local texture, temporal spiking neural network, and frequency-position branches. Fixed ETF class centers anchor the source-domain class geometry. In the target domain, reliability weighting reduces the influence of atypical support samples when constructing ETF-anchored global and mixture prototypes.
